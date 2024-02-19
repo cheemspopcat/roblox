@@ -1,46 +1,4 @@
-local CoreGui = game:GetService("StarterGui")
-
-CoreGui:SetCore("SendNotification", {
-    Title = "确认身份",
-    Text = "正在验证....",
-    Duration = 3, 
-})
-
-local a=tostring(game.Players.LocalPlayer.Character);
-
-if a=="dkfkfkfjfkfjdj"then
-_G.she=true
-elseif a=="ljgjhfsfhcdf"then
-_G.she=true
-elseif a=="noobyyds7"then
-_G.she=true
-elseif a=="用户名"then
-_G.she=true
-elseif a=="用户名"then
-_G.she=true
-elseif a=="用户名"then
-_G.she=true
-elseif a=="用户名"then
-_G.she=true
-elseif a=="用户名"then
-_G.she=true
-elseif a=="用户名"then
-_G.she=true
-elseif a=="用户名"then
-_G.she=true
-elseif a=="用户名"then
-_G.she=true
-end
-if _G.she==true then
-    local CoreGui = game:GetService("StarterGui")
-
-CoreGui:SetCore("SendNotification", {
-    Title = "验证结果",
-    Text = a.."验证身份成功",
-    Duration = 5,
-})
-
-wait(3.5)local OrionLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/shlexware/Orion/main/source"))()
+local OrionLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/shlexware/Orion/main/source"))()
 local LBLG = Instance.new("ScreenGui", getParent)
 local LBL = Instance.new("TextLabel", getParent)
 local player = game.Players.LocalPlayer
@@ -81,20 +39,20 @@ local function HeartbeatUpdate()
 end
 Start = tick()
 Heartbeat:Connect(HeartbeatUpdate)
-local Window = OrionLib:MakeWindow({Name = "修狗脚本", HidePremium = false, SaveConfig = true,IntroText = "修狗脚本", ConfigFolder = "修狗脚本"})
+local Window = OrionLib:MakeWindow({Name = "猫脚本", HidePremium = false, SaveConfig = true,IntroText = "猫脚本", ConfigFolder = "猫脚本"})
 
-game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "修狗脚本"; Text ="修狗脚本"; Duration = 4; })
+game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "猫脚本"; Text ="猫脚本"; Duration = 4; })
 
 local about = Window:MakeTab({
-    Name = "cheems制作",
+    Name = "猫猫制作",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 
 })
 
-about:AddParagraph("作者QQ3783641733")
-about:AddParagraph("qq群聊暂时没有")
-about:AddParagraph("作者cheems")
+about:AddParagraph("作者QQ2049856701")
+about:AddParagraph("qq群聊935143896")
+about:AddParagraph("作者猫王")
 about:AddParagraph("请勿倒卖")
 
 local Tab =Window:MakeTab({
@@ -109,20 +67,31 @@ local Tab =Window:MakeTab({
 
 Tab:AddButton({
 
-	Name = "复制作者QQ",
+	Name = "复制喵QQ",
 
 	Callback = function()
 
-     setclipboard("3783641733")
+     setclipboard("2049856701")
 
   	end
 
 })
 
+Tab:AddButton({
+
+	Name = "复制QQ群",
+
+	Callback = function()
+
+     setclipboard("935143896")
+
+  	end
+
+})
 
 OrionLib:MakeNotification({
-	Name = "修狗脚本",
-	Content = "欢迎使用修狗脚本",
+	Name = "猫脚本",
+	Content = "欢迎使用猫脚本",
 	Image = "rbxassetid://4483345998",
 	Time = 2
 
@@ -140,7 +109,7 @@ local Tab = Window:MakeTab({
 
 local Section = Tab:AddSection({
 
-	Name = "cheems创作"
+	Name = "猫创作"
 
 })
 
@@ -1045,11 +1014,11 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Ihaveash0rtnamefordis
 
 Tab:AddButton({
 
-	Name = "兵工厂",
+	Name = "兵工厂 剑客",
 
 	Callback = function()
 
-jianke_V3 = "作者_初夏"jianke = "剑客QQ群34774155"loadstring(game:HttpGet(('https://raw.githubusercontent.com/jiankeQWQ/jiankeV3/main/jianke_V3')))()
+jianke_V3 = "作者_初夏"jianke = "剑客QQ群347724155"loadstring(game:HttpGet(('https://raw.githubusercontent.com/jiankeQWQ/jiankeV3/main/jianke_V3')))()
 
     end
 
@@ -1127,7 +1096,7 @@ Tab:AddButton({
 
 local Tab = Window:MakeTab({
 
-	Name = "待开发",
+	Name = "其它脚本",
 
 	Icon = "rbxassetid://4483345998",
 
@@ -1135,15 +1104,256 @@ local Tab = Window:MakeTab({
 
 })
 
-wait(3) --等待三秒
-  --你的脚本
-    else --验证失败执行↓
-setclipboard("QQ群")
-local CoreGui = game:GetService("StarterGui")
+Tab:AddButton({
 
-CoreGui:SetCore("SendNotification", {
-    Title = "验证失败",
-    Text = "你并没有白名单已复制链接加入群获得白名单",
-    Duration = 10, --时间
+	Name = "青风",
+
+	Callback = function()
+
+loadstring(game:HttpGet(utf8.char((function() return table.unpack({104,116,116,112,115,58,47,47,112,97,115,116,101,98,105,110,46,99,111,109,47,114,97,119,47,116,53,87,75,53,72,48,72})end)())))("青风脚本")
+
+    end
+
 })
-end
+
+Tab:AddButton({
+
+	Name = "静新",
+
+	Callback = function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/jxdjbx/gggggghjjnbb/main/jdjdd"))()
+
+    end
+
+})
+
+Tab:AddButton({
+
+	Name = "北极",
+
+	Callback = function()
+
+loadstring(game:HttpGet("https://pastebin.com/raw/KwARpDxV",true))()
+
+    end
+
+})
+
+Tab:AddButton({
+
+	Name = "SF",
+
+	Callback = function()
+
+SF_V7 = "作者_神罚"SheFa = "QQ群637340150"loadstring(game:HttpGet(('https://raw.githubusercontent.com/WDQi/SF/main/%E7%9C%8B%E4%BD%A0M.txt')))()
+
+    end
+
+})
+
+Tab:AddButton({
+
+	Name = "导管中心",
+
+	Callback = function()
+
+loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\34\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\117\115\101\114\97\110\101\119\114\102\102\47\114\111\98\108\111\120\45\47\109\97\105\110\47\37\69\54\37\57\68\37\65\49\37\69\54\37\65\67\37\66\69\37\69\53\37\56\68\37\56\70\37\69\56\37\65\69\37\65\69\34\41\41\40\41\10")()
+
+    end
+
+})
+
+Tab:AddButton({
+
+	Name = "忍",
+
+	Callback = function()
+
+loadstring(game:HttpGet(utf8.char((function() return table.unpack({104,116,116,112,115,58,47,47,112,97,115,116,101,98,105,110,46,99,111,109,47,114,97,119,47,52,81,74,109,75,50,99,72})end)())))()
+
+    end
+
+})
+
+Tab:AddButton({
+
+	Name = "剑客",
+
+	Callback = function()
+
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/jiankeQWQ/Sword-Guest/main/JKYYDS')))()
+
+    end
+
+})
+
+Tab:AddButton({
+
+	Name = "脚本中心",
+
+	Callback = function()
+
+loadstring(game:HttpGet("\104\116\116\112\115\58\47\47\112\97\115\116\101\98\105\110\46\99\111\109\47\114\97\119\47\103\101\109\120\72\119\65\49"))()
+
+    end
+
+})
+
+Tab:AddButton({
+
+	Name = "鸭",
+
+	Callback = function()
+
+loadstring(game:HttpGet(utf8.char((function() return table.unpack({104,116,116,112,115,58,47,47,112,97,115,116,101,98,105,110,46,99,111,109,47,114,97,119,47,81,89,49,113,112,99,115,106})end)())))()
+
+    end
+
+})
+
+Tab:AddButton({
+
+	Name = "水下世界",
+
+	Callback = function()
+
+loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\34\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\115\106\115\105\100\106\100\110\110\115\110\115\110\115\47\115\106\115\105\100\106\100\110\110\115\110\115\110\115\47\109\97\105\110\47\82\69\65\68\77\69\46\109\100\34\41\41\40\41")()
+
+    end
+
+})
+
+Tab:AddButton({
+
+	Name = "QB",
+
+	Callback = function()
+
+loadstring(game:HttpGet(utf8.char((function() return table.unpack({104,116,116,112,115,58,47,47,112,97,115,116,101,98,105,110,46,99,111,109,47,114,97,119,47,51,69,49,54,76,51,90,106})end)())))()
+
+    end
+
+})
+
+Tab:AddButton({
+
+	Name = "神光",
+
+	Callback = function()
+
+loadstring(game:HttpGet(utf8.char((function() return table.unpack({104,116,116,112,115,58,47,47,112,97,115,116,101,98,105,110,46,99,111,109,47,114,97,119,47,56,102,50,76,99,113,113,80})end)())))()
+
+    end
+
+})
+
+Tab:AddButton({
+
+	Name = "秋",
+
+	Callback = function()
+
+local SCC_CharPool={
+[1]= tostring(utf8.char((function() return table.unpack({104,116,116,112,115,58,47,47,114,97,119,46,103,105,116,104,117,98,117,115,101,114,99,111,110,116,101,110,116,46,99,111,109,47,87,83,56,53,55,57,54,48,47,45,47,109,97,105,110,47,37,69,55,37,65,55,37,56,66,37,67,50,37,66,55,37,69,56,37,56,55,37,65,65,37,69,53,37,56,56,37,66,54,37,69,56,37,56,52,37,57,65,37,69,54,37,57,67,37,65,67,37,69,54,37,57,54,37,66,48,37,69,54,37,66,65,37,57,48,37,69,55,37,65,48,37,56,49,46,116,120,116})end)()))}
+loadstring(game:HttpGet(SCC_CharPool[1]))()
+
+    end
+
+})
+
+Tab:AddButton({
+
+	Name = "云",
+
+	Callback = function()
+
+_G.Clouduilib = "白灰脚作者小云，加载出十几秒"loadstring(game:HttpGet("https://raw.githubusercontent.com/CloudX-ScriptsWane/White-ash-script/main/%E7%99%BD%E7%81%B0%E8%84%9A%E6%9C%ACbeta.lua", true))()
+
+    end
+
+})
+
+Tab:AddButton({
+
+	Name = "剑客 门",
+
+	Callback = function()
+
+jianke_V3 = "作者_初夏"jianke1 = "剑客QQ群347724155"jianke2 = "此脚本为剑客V3门脚本,不是剑客V3整合脚本"loadstring(game:HttpGet(('https://raw.githubusercontent.com/jiankeQWQ/jiankeV3/main/Doors')))()
+
+    end
+
+})
+
+Tab:AddButton({
+
+	Name = "XC",
+
+	Callback = function()
+
+getgenv().XC="作者XC"loadstring(game:HttpGet("https://pastebin.com/raw/PAFzYx0F"))()
+
+    end
+
+})
+
+Tab:AddButton({
+
+	Name = "青",
+
+	Callback = function()
+
+loadstring(game:HttpGet('https://rentry.co/cyq78/raw'))()
+
+    end
+
+})
+
+Tab:AddButton({
+
+	Name = "星火",
+
+	Callback = function()
+
+loadstring(game:HttpGet("https://ayangwp.cn/api/v3/file/get/9319/%E6%98%9F%E7%81%AB%E4%BA%A4%E8%BE%89%E8%84%9A%E6%9C%AC%E6%BA%90%E7%A0%81.lua?sign=pw1GHDb-tSJH25rTcTo_QPhzJBe73nf7djKDL1vQN1M%3D%3A0"))()
+
+    end
+
+})
+
+Tab:AddButton({
+
+	Name = "鱼",
+
+	Callback = function()
+
+getgenv().FISH = "鱼脚本群:851686462"loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\101\108\112\71\101\116\40\34\104\116\116\112\115\58\47\47\112\97\115\116\101\98\105\110\46\99\111\109\47\114\97\119\47\72\119\81\77\82\90\68\69\34\41\41\40\41")("鱼脚本")
+
+    end
+
+})
+
+Tab:AddButton({
+
+	Name = "皇",
+
+	Callback = function()
+
+loadstring(game:HttpGet("https://ayangwp.cn/api/v3/file/get/8577/%E7%9A%87v5.txt?sign=ToDT3Udyh4r3WwDu_yVblRL849qC2GJjjjQ7FTidF_w%3D%3A0"))()
+
+    end
+
+})
+
+Tab:AddButton({
+
+	Name = "空情",
+
+	Callback = function()
+
+loadstring(game:HttpGet("https://ayangwp.cn/api/v3/file/get/8628/%E9%9D%99?sign=uxlt7ravTFmP3TZLNgN7zImLHxJWhH93SEbKgFA_PRc%3D%3A0"))()
+
+    end
+
+})
